@@ -1,0 +1,103 @@
+body {
+  font-family: Montserrat;
+}
+.dark-mode .form-section {
+  background-color: #1e1e1e;
+}
+.dark-mode .form-box {
+  font-family: Montserrat;
+  background-color: #151515;
+  color: white;
+  transition: 250ms;
+}
+.dark-mode .subtitle {
+  color: #cacaca;
+}
+.dark-mode {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  transition: 500ms;
+}
+.dark-mode input {
+  border-color: #010101;
+  background-color: rgb(10, 10, 10);
+  border-bottom: 1px solid #242424;
+  transition: 250ms;
+}
+.form-box {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  background-color: #f1f7fa;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+}
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem auto 0 0.5rem;
+  width: 100%;
+}
+input {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #eee;
+  height: 40px;
+  width: 100%;
+  padding: 8px 15px;
+}
+.form-section {
+  padding: 16px;
+  font-size: 0.85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0, 0, 0/8%) 0 -1px;
+}
+.form-section a {
+  font-weight: bold;
+  color: #005ce6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.form-section a:hover {
+  color: #0066ff;
+  text-decoration: underline;
+}
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  font-weight: 600px;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color.3s ease;
+}
+.form button:hover {
+  background-color: #005ce6;
+}
